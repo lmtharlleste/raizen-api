@@ -1,0 +1,60 @@
+# Arquivos e diretórios de configuração do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+data/
+
+# Diretório de ambientes virtuais
+venv/
+env/
+.venv/
+
+# Diretórios e arquivos de build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Arquivos de configuração do ambiente
+*.env
+*.envrc
+*.venv
+*.po
+*.mo
+
+# Arquivos de cache
+*.cache
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Configuração do IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# Arquivos do Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+
+# Configuração do Poetry
+.poetry/
+
+# Outros arquivos específicos de ferramentas
+.mypy_cache/
+.pytype/
+.dmypy.json
+.pyre/
