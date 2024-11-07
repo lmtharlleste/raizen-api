@@ -1,0 +1,22 @@
+/* style.css */
+.login-page {
+    background: url("../../Components/Assets/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw; /* 100% da largura da viewport */
+}
+
+.login-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
