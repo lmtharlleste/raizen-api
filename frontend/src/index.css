@@ -14,7 +14,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: seagreen;
+  background: url("./Components/Assets/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 code {
