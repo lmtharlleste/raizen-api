@@ -1,8 +1,14 @@
 import React from "react";
 import "./style.css";
+import Navbar from "../../Components/Navbar";
 
 function Profile() {
-  return <h1>Perfil do usuário</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1>Perfil de usuário</h1>
+    </>
+  );
 }
 
 export default Profile;

@@ -1,19 +1,19 @@
 import React from "react";
-import LoginForm from "../../Components/LoginForm/LoginForm";
+import RegisterForm from "../../Components/RegisterForm/RegisterForm";
 import "./style.css";
 import Navbar from "../../Components/Navbar";
 
-function Login() {
+function Register() {
   return (
     <>
       <Navbar />
       <div className="login-page">
         <div className="login-container">
-          <LoginForm />
+          <RegisterForm />
         </div>
       </div>
     </>
   );
 }
 
-export default Login;
+export default Register;

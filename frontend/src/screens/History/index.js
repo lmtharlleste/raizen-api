@@ -1,8 +1,13 @@
 import React from "react";
+import Navbar from "../../Components/Navbar";
 import "./style.css";
 
 function History() {
-  return <h1>Historico de pesquisas</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1>Página de historico</h1>
+    </>
+  );
 }
-
 export default History;
