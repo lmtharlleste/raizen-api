@@ -32,4 +32,13 @@
   .nav a:hover {
     color: #ddd; /* Muda a cor ao passar o mouse */
   }
+  .exit-link {
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .exit-link:hover {
+    text-decoration: underline;
+  }
   
